@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>option card</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/CSS/styles.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+    }
+
+    .app-body {
+      margin: 10%;
+      height: 790px;
+      display: contents;
+      border: 2px solid black;
+      border-radius: 0.8rem;
+    }
+
+    .bg-img {
+      border-radius: 0.6rem;
+      /* position: absolute; */
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>  
+    <section>
+      <div class="app-body">
+        <img class="bg-img" src="/images/home.png" alt="">
+        <div class="container">
+          <p>Please select an option.</p>
+          <div class="btn">
+              <a><i class="icon fa-sharp fa-solid fa-graduation-cap"></i>Students</a>
+              <a><i class="icon-1 fa-solid fa-chalkboard-user"></i>Teachers</a>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
